@@ -1,0 +1,74 @@
+/* Estilizando o corpo da página */
+body {
+  font-family: Arial, Helvetica, sans-serif; /* Define a família de fontes para o corpo da página */
+  margin: 0; /* Remove margens padrão do corpo da página */
+  padding: 0; /* Remove preenchimento padrão do corpo da página */
+  min-height: 100vh; /* Define a altura mínima como 100% da altura da viewport */
+  background-image: radial-gradient(
+    circle at -6.84% 39.98%,
+    /* Gradiente radial para o plano de fundo */ #705aad 0,
+    #493f81 25%,
+    #242453 50%,
+    #070529 75%,
+    #000000 100%
+  );
+  display: flex; /* Usa um layout flexível */
+  flex-direction: column; /* Itens empilhados verticalmente */
+}
+
+/* Estilizando o contêiner */
+#container {
+  text-align: center; /* Centraliza o texto dentro do contêiner */
+  padding: 20px; /* Adiciona preenchimento interno ao contêiner */
+  border-radius: 8px; /* Adiciona bordas arredondadas ao contêiner */
+  border: #1c1a1a groove 10px; /* Adiciona uma borda com estilo e largura específicos */
+  background-color: #aaaab1; /* Define uma cor de fundo para o contêiner */
+  box-sizing: border-box; /* Adicionado para incluir a borda no dimensionamento total */
+  max-width: 800px; /* Define a largura máxima do contêiner */
+  margin: auto; /* Centraliza o contêiner horizontalmente */
+}
+
+/* Estilizando listas ordenadas */
+ol {
+  padding: 5px; /* Adiciona preenchimento interno a lista ordenada */
+  display: flex; /* Usa um layout flexível */
+  flex-direction: column; /* Itens empilhados verticalmente */
+  align-items: flex-start; /* Alinha os itens à esquerda */
+  list-style-type: decimal; /* Remove os marcadores de lista padrão */
+  padding-left: 0; /* Remove o preenchimento padrão à esquerda da lista */
+}
+
+/* Estilizando itens de lista */
+li {
+  margin: 10px; /* Adiciona margem ao redor dos itens da lista */
+}
+
+/* Estilizando classe tarefas concluídas */
+.tarefaFeita {
+  text-decoration: line-through; /* Adiciona uma linha no meio do texto para indicar que a tarefa está concluída */
+  color: #1c1a1a; /* Define a cor do texto para uma tonalidade escura */
+  font-style: italic; /* Adiciona estilo itálico ao texto */
+  margin-right: 10px; /* Adiciona margem à direita para separar visualmente as tarefas concluídas */
+  cursor: pointer; /* Mostra um cursor de apontador ao passar sobre as tarefas concluídas */
+}
+
+/* Estilizando botões */
+button {
+  margin-top: 10px; /* Adiciona margem superior aos botões */
+  cursor: pointer;
+}
+
+/* Estilizando o rodapé */
+#rodape {
+  background-color: #e3e3ee; /* Define uma cor de fundo para o rodapé */
+  border-radius: 8px; /* Adiciona bordas arredondadas ao rodapé */
+  margin-top: 10px; /* Adiciona margem superior ao rodapé */
+}
+
+/* Estilizando para melhor adaptação  */
+body,
+h1,
+input,
+button {
+  font-size: 16px; /* Define o tamanho da fonte para o texto, cabeçalho, input e botões */
+}

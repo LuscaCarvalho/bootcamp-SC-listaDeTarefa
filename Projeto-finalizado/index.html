@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Inclusão do CSS externo -->
+  <link rel="stylesheet" href="./style.css">
+  <title>Lista de Tarefas</title>
+</head>
+
+<body>
+  <!-- Inicio do Contêiner -->
+  <div id="container">
+
+    <!-- Título dentro do Contêiner -->
+    <h1>Lista de Tarefas</h1>
+    <!-- Campo de entrada de tarefas -->
+    <input type="text" id="entradaTarefas" placeholder="Adicionar nova tarefa">
+    <!-- Botão para adicionar tarefa -->
+    <button onclick="adicionarTarefas()">Adicionar Tarefa</button>
+    <!-- Lista ordenada para exibir as tarefas -->
+    <ol id="listaTarefas"></ol>
+    <!-- Botão para excluir todas as tarefas -->
+    <button id="excluirTodosBtn">Excluir Todos</button>
+    <div id="rodape">
+      <p>Feito por Lucas Carvalho</p>
+    </div>
+  </div>
+  <!-- Final do Contêiner -->
+
+  <!-- Inclusão do JavaScript Externo -->
+  <script src="./script.js"></script>
+</body>
+
+</html>
